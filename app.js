@@ -1,5 +1,6 @@
 const bodyParser = require("body-parser");
 const express = require("express");
+require('dotenv').config();
 
 const mainRouter = require("./routes/mainRouter");
 
